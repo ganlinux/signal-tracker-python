@@ -17,6 +17,11 @@ components:
   skill:
     dir: skills/signal-tracker
 
+  binary:
+    repo: okx/plugin-store
+    asset_pattern: "signal-tracker-python-{target}"
+    checksums_asset: checksums.txt
+
 build:
   lang: python
   source_repo: ganlinux/signal-tracker-python
